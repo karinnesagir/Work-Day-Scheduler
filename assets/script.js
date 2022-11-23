@@ -52,9 +52,13 @@ $(document).ready(function () {
   $('#hour-5 .description').val(localStorage.getItem('hour-5'));
 
 
-  // displaying the current date in the header of the page
+  // Displaying the current date in the header of the page
   var currentDate = dayjs().format('dddd, MMMM Do');
   $('#currentDay').html(currentDate);
 
 
 });
+
+
+// Do date
+// .now() (two integers) (always past?)
